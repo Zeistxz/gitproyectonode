@@ -7,8 +7,10 @@ app.use(express.json());
 
 // Datos de ejemplo para simular una base de datos en memoria
 let productos = [
-  { id: 1, nombre: 'Producto A', precio: 100 },
-  { id: 2, nombre: 'Producto B', precio: 200 },
+  { id: 1, nombre: 'Laptop', precio: 2000 },
+  { id: 2, nombre: 'TV', precio: 200 },
+  { id: 3, nombre: 'Lavadora', precio: 500 },
+  { id: 4, nombre: 'Test', precio: 10 },
 ];
 
 // Ruta GET para obtener la lista de productos
